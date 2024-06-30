@@ -96,6 +96,11 @@ Activate the build environment, download the next monthly lichess database and b
 
 You can repeat this step to include more monthly databases in the build.
 
+# To Do
+
+- Add the option to create an opening book based on a user's games.
+- Add the option to create an opening book from the [lichess cloud analysis database](https://database.lichess.org/#evals).
+
 # Credits
 
 This project is created on top of [cbuild](https://github.com/lichapibot/cbuild).
