@@ -78,7 +78,7 @@ The `zip` folder should contain zipped PGN files.
 
 To download the next monthly lichess database run the program with the `--nextlichessdb` switch (you can repeat this several times to download databases for several months).
 
-To download the proof lines from the antichess solution run the program with `--watkins 1000`, `--watkins 10000`, or `--watkins 25000`. A smaller number will create a better opening book, but it will take less time to download.
+To download the proof lines from the antichess solution run the program with `--watkins 1000`, `--watkins 10000`, or `--watkins 25000`. A smaller number will create a better opening book, but it will take more time to download.
 
 ## Building files
 
