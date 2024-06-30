@@ -61,7 +61,7 @@ envs
     filter_logic.py    
 ```
 
-File `filter_logic.py` is a python code snippet that has access to the [`BasePgnVisitor`](https://github.com/AttackingOrDefending/OpeningBookCreator/blob/master/buildutils.py#L103) instance as `self` and set the boolean variable `self.ok` to indicate whether to include the given game, `True` for including, `False` for excluding (the code can be empty to include all games, this is the default). File `config.yml` is reserved for build configuration, currently should be left empty.
+File `filter_logic.py` is a python code snippet that has access to the [`BasePgnVisitor`](https://github.com/AttackingOrDefending/OpeningBookCreator/blob/main/buildutils.py#L103) instance as `self` and set the boolean variable `self.ok` to indicate whether to include the given game, `True` for including, `False` for excluding (the code can be empty to include all games, this is the default). File `config.yml` is reserved for build configuration, currently should be left empty.
 
 Example filter logic to filter out games less than 2200 rated:
 
