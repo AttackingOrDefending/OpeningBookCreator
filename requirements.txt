@@ -1,0 +1,4 @@
+chess==1.10.0
+pyYAML==6.0.1
+requests==2.32.3
+zstandard==0.22.0
